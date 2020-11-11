@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    >
+
+
+    <TextView
+        android:id="@+id/onamae"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama :"
+        />
+
+
+    <EditText
+        android:id="@+id/edit_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:lines="1"
+        />
+
+    <TextView
+        android:id="@+id/nim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NIM  :"
+        />
+
+    <EditText
+        android:id="@+id/edit_nim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:lines="1"
+        />
+
+    <TextView
+        android:id="@+id/jurus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jurusan :"
+        />
+
+    <EditText
+        android:id="@+id/edit_jurus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:lines="1"
+        />
+
+
+
+
+    <RadioGroup
+        android:id="@+id/pilihjk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:layout_marginTop="6dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/jk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pilih Jenis kelamin :"
+            />
+
+        <RadioButton
+            android:id="@+id/perempuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perempuan"
+            />
+
+        <RadioButton
+            android:id="@+id/laki"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Laki-laki"
+            />
+
+    </RadioGroup>
+
+
+    <TextView
+        android:id="@+id/alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alamat :"
+        />
+
+    <EditText
+        android:id="@+id/edit_alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:lines="1"
+        />
+
+    <TextView
+        android:id="@+id/ttl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tanggal Lahir :"
+        />
+
+    <EditText
+        android:id="@+id/edit_lahir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:lines="1"
+        />
+
+
+
+    <Button
+        android:id="@+id/submit2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kirim"
+        android:enabled="false"
+        />
+
+
+
+</LinearLayout>
